@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_admissions_large</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon_admissions_large" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(24.000000, 24.000000)" fill="#F8A31A">
+            <path d="M10.8928415,32.9924883 C10.2784836,33.6314019 9.27465755,33.6314019 8.66029966,32.9924883 C8.04696399,32.3546379 8.04696399,31.3096262 8.66029966,30.6707126 L25.2684074,13.4009112 C25.881743,12.7619977 26.8865913,12.7619977 27.499927,13.4009112 C28.1142849,14.0387617 28.1142849,15.0837734 27.499927,15.7216238 L10.8928415,32.9924883 Z M24.9995619,5.6 L1.42804988,30.1147196 L0,42 L11.428488,40.5138084 L35,16.0001519 L24.9995619,5.6 Z" id="Fill-8"></path>
+            <path d="M39.9070488,2.0929512 C37.11748,-0.6976504 32.5938549,-0.6976504 29.8042861,2.0929512 L28,3.89723728 L38.1027627,14 L39.9070488,12.1967467 C42.6976504,9.40614511 42.6976504,4.88252001 39.9070488,2.0929512" id="Fill-9"></path>
+        </g>
+    </g>
+</svg>

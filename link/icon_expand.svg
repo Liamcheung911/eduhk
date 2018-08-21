@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_expand</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon_expand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(17.500000, 18.000000) scale(1, -1) translate(-17.500000, -18.000000) translate(9.000000, 13.000000)" fill="#005E20" fill-rule="nonzero">
+            <polygon id="Rectangle" transform="translate(4.837521, 4.837521) rotate(-315.000000) translate(-4.837521, -4.837521) " points="-1.02643999 3.86019421 10.7014821 3.86019421 10.7014821 5.81484788 -1.02643999 5.81484788"></polygon>
+            <polygon id="Rectangle-Copy" transform="translate(11.837521, 4.837521) scale(1, -1) rotate(-315.000000) translate(-11.837521, -4.837521) " points="5.97356001 3.86019421 17.7014821 3.86019421 17.7014821 5.81484788 5.97356001 5.81484788"></polygon>
+        </g>
+    </g>
+</svg>

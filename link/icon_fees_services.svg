@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_fees_services</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon_fees_services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5">
+            <path d="M43.693236,22 C43.693236,34.1505 33.9544045,44 21.940427,44 C9.92644944,44 0.187617978,34.1505 0.187617978,22 C0.187617978,9.85 9.92644944,0 21.940427,0 C33.9544045,0 43.693236,9.85 43.693236,22" id="Fill-5" fill="#1C87E4"></path>
+            <path d="M24.6870157,22.48705 C26.158791,21.55855 27.1381618,19.90755 27.1381618,18.02455 C27.1381618,15.12155 24.8111056,12.76805 21.9402292,12.76805 C19.0698472,12.76805 16.742791,15.12155 16.742791,18.02455 C16.742791,19.90755 17.7226562,21.55855 19.1939371,22.48705 C15.5271056,23.66405 12.8698022,27.13355 12.8698022,31.23205 L31.0111506,31.23205 C31.0111506,27.13355 28.3538472,23.66405 24.6870157,22.48705" id="Fill-6" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

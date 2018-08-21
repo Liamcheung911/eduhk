@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_program</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon_program" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <path d="M44,22 C44,34.1505 34.15,44 22,44 C9.8495,44 0,34.1505 0,22 C0,9.85 9.8495,0 22,0 C34.15,0 44,9.85 44,22" id="Fill-1" fill="#E53935"></path>
+            <path d="M19.847,32.802 L24.347,32.802 L24.347,18.302 L19.847,18.302 L19.847,32.802 Z M19.4485,13.7495 C19.4485,13.0455 19.698,12.444 20.1965,11.9455 C20.695,11.447 21.296,11.198 22,11.198 C22.704,11.198 23.305,11.447 23.8035,11.9455 C24.3025,12.444 24.5515,13.0455 24.5515,13.7495 C24.5515,14.4535 24.3025,15.0545 23.8035,15.553 C23.305,16.052 22.704,16.301 22,16.301 C21.296,16.301 20.695,16.052 20.1965,15.553 C19.698,15.0545 19.4485,14.4535 19.4485,13.7495 Z" id="Fill-3" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

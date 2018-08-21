@@ -1,0 +1,158 @@
+@media (min-width: 768px) {
+    .container-padding {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .nav-item {
+        padding-left: 40px;
+        padding-right: 40px;
+        border-bottom: 1px solid #dee2e6;
+    }
+    .dropdown-menu {
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+    .dropdown-item,
+    .dropdown-title {
+        padding: 20px 40px;
+    }
+    .dropdown-item.sublevel {
+        font-size: 12px;
+        padding: 4px 40px;
+    }
+    .sublevel-box {
+        padding: 20px 0;
+    }
+    .sublevel-box .dropdown-title {
+        flex: 0 0 140px;
+        white-space: no-wrap;
+        padding-right: 0;
+    }
+    .sublevel-box .dropdown-content {
+        flex: 1 1;
+    }
+    .inside-page-title {
+        height: 128px;
+        padding-left: 40px;
+        width: 500px;
+        margin-top:-128px;
+    }
+    h1 {
+        font-size: 38px;
+        font-weight: 300;
+    }
+    .inside-page-KV-box {
+        height: 390px;
+        position: relative;
+    }
+    .header {
+        height: 60px;
+    }
+    .eduhk-logo {
+        width: 120px;
+    }
+    .overlap-button.desktop {
+        top: calc((100vw /4) - 30px);
+    }
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        max-width: 1280px !important;
+        margin: 0 auto;
+    }
+    .container-padding {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .navbar-nav {
+        height: 65px;
+    }
+    .nav-icon {
+        width: 44px;
+        height: 44px;
+    }
+    .nav-item {
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 186px;
+        height: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        border-bottom: none;
+        transition: 0.2s;
+    }
+    .nav-item.home {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 60px;
+    }
+    .nav-item:hover,
+    .nav-item.active {
+        background-color: #feef50;
+    }
+    .nav-item a span {
+        margin-left: 10px;
+    }
+    .dropdown-menu {
+        width: 220px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    .dropdown>.dropdown-toggle:active {
+        pointer-events: none;
+    }
+    .dropdown-item,
+    .dropdown-title {
+        padding-left: 0;
+        padding: 10px 20px;
+    }
+    .dropdown-item:hover {
+        background-color: #feef50;
+    }
+    .dropdown-item.sublevel {
+        font-size: 12px;
+        padding: 4px 20px;
+    }
+    .dropdown-item.sublevel:last-child {
+        margin-bottom: 20px;
+    }
+    .nav-link span {
+        line-height: 1.1;
+    }
+    .dropdown-item.sublevel {
+        font-size: 12px;
+        padding-left: 1.5rem;
+        padding: 4px 20px;
+    }
+    .dropdown-item:hover {
+        background-color: #fff;
+    }
+    .sublevel-box {
+        padding: 0 0;
+    }
+    .inside-page-title {
+        height: 128px;
+        padding-left: 60px;
+        width: 500px;
+        margin-top:-128px;
+    }
+    h1 {
+        font-size: 38px;
+        font-weight: 300;
+    }
+    .inside-page-KV-box {
+        height: 390px;
+        position: relative;
+    }
+    .header {
+        height: 96px;
+    }
+    .eduhk-logo {
+        width: 177px;
+    }
+}
