@@ -204,6 +204,7 @@ table {
 .inside-page-KV-box {
     height: 300px;
     position: relative;
+    overflow: hidden;
 }
 
 .inside-page-title {
@@ -528,6 +529,8 @@ table {
     background-color: #2F7777 !important;
 }
 
+
+
 .content ul {
     margin-bottom: 60px;
     padding-left: 25px;
@@ -568,6 +571,17 @@ li.table-li:before {
     color: #F8A31A;
     font-size: 30px;
 }
+
+
+.content ul.no-bullet, ul.no-bullet {
+    padding-left: 0;
+}
+
+
+.content ul.no-bullet li:before, ul.no-bullet li.table-li:before {
+    content: '';
+}
+
 .content.programme-list ul li {
     display:flex;
 }
@@ -744,4 +758,12 @@ a.large:hover {
 .collpse-faq-content {
     padding-left: 35px;
     padding-right: 60px;
+}
+
+.content p, .content ul li, .content ol li, .collpse-faq-content, .collpse-faq-content li {
+    text-align: justify;
+}
+
+.table p {
+    text-align:left;
 }
