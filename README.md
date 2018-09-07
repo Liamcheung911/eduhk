@@ -1,2 +1,0 @@
-# eduhk
-eduhk static HTML
