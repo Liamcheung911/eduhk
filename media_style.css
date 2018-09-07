@@ -155,4 +155,12 @@
     .eduhk-logo {
         width: 177px;
     }
+
+    #eduhkheader {
+        position: fixed;
+        z-index:999;
+        background-color: #ffffff;
+        top:0;
+    }
+
 }
