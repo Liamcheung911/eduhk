@@ -66,7 +66,6 @@ table {
     margin-bottom: 20px;
 }
 
-
 .text-underline {
     text-decoration: underline;
 }
@@ -212,7 +211,7 @@ table {
 .inside-page-KV-box {
     height: 300px;
     position: relative;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .inside-page-title {
@@ -301,7 +300,6 @@ table {
     height: 200px;
     top: 330px;
     right: -20px;
-    
 }
 
 .overlap-button {
@@ -334,11 +332,10 @@ table {
 .overlap-button .overlap-text {
     width: 83px;
 }
+
 .overlap-button.desktop .overlap-text {
     width: 103px;
 }
-
-
 
 .overlap-button .overlap-text .title {
     color: #fff;
@@ -352,7 +349,6 @@ table {
     font-size: 45px;
     padding-bottom: 10px;
 }
-
 
 .overlap-button .overlap-text .white-line {
     border-bottom: 3px solid #fff;
@@ -577,23 +573,24 @@ li.table-li:before {
     color: #F8A31A;
     font-size: 30px;
 }
+
 .content.programme-list ul li {
-    display:flex;
+    display: flex;
 }
 
 .content.programme-list ul li:before {
-    background-image:url('link/arrow.png');
+    background-image: url('link/arrow.png');
     background-size: 100%;
     background-repeat: no-repeat;
     display: inline-block;
     max-width: 12px;
     max-height: 12px;
-    width:12px;
-    height:12px;
-    content:"";
+    width: 12px;
+    height: 12px;
+    content: "";
     top: 6px;
     left: -17px;
-    flex:0 0 12px;
+    flex: 0 0 12px;
 }
 
 .content.programme-list a {
@@ -609,7 +606,7 @@ li.table-li:before {
     color: #666;
     font-size: 13px;
     line-height: 20px;
-	margin-top: 5px;
+    margin-top: 5px;
 }
 
 .sub-menu ul {
@@ -630,12 +627,18 @@ li.table-li:before {
     color: #333;
     transition: 0.2s;
 }
+
 .sub-menu a:hover {
     color: #F8A31A;
 }
 
 .sub-menu li:last-child {
     border-bottom: none;
+}
+
+.sub-menu.sticky ul {
+    position: fixed;
+    top: 0;
 }
 
 a.large {
@@ -650,9 +653,24 @@ a.large:hover {
 }
 
 .back-to-top {
-    width: 100%;
     margin: 10px 0 20px 0;
     text-align: right;
+    position: fixed;
+    background-color: #fff;
+    bottom: 10px;
+    right: 40px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.26);
+    opacity: 0;
+    transition: 0.2s linear;
+    cursor:pointer;
+}
+
+.back-to-top.show {
+    opacity: 1;
 }
 
 .arrow-up {
@@ -692,17 +710,14 @@ a.large:hover {
 }
 
 .table td {
-	background-color: #ffeaae;
-	border: 2px solid #f0f0f0;
-	border-collapse: collapse;
+    background-color: #ffeaae;
+    border: 2px solid #f0f0f0;
+    border-collapse: collapse;
 }
 
 .table td.cps {
     background-color: #fcf1d2;
 }
-
-
-
 
 .collpse-arrow {
     width: 35px;
@@ -758,19 +773,24 @@ a.large:hover {
     padding-right: 60px;
 }
 
-.content ul.no-bullet, ul.no-bullet {
+.content ul.no-bullet,
+ul.no-bullet {
     padding-left: 0;
 }
 
-
-.content ul.no-bullet li:before, ul.no-bullet li.table-li:before {
+.content ul.no-bullet li:before,
+ul.no-bullet li.table-li:before {
     content: '';
 }
 
-.content p, .content ul li, .content ol li, .collpse-faq-content, .collpse-faq-content li {
+.content p,
+.content ul li,
+.content ol li,
+.collpse-faq-content,
+.collpse-faq-content li {
     text-align: justify;
 }
 
 .table p {
-    text-align:left;
+    text-align: left;
 }

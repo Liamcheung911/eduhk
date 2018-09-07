@@ -2,48 +2,63 @@ $(document).ready(function () {
 
 
 
+    window.onscroll = function () {
+        var element = $('#side-menu');
+        if (element.length > 0) {
+            fixedHeader();
+        }
 
-    // When the user scrolls the page, execute myFunction 
-    window.onscroll = function () { fixedHeader() };
-
-    // Get the header
-    var header = document.getElementById("eduhkheader");
-
-
-
-
-    // Get the offset position of the navbar
-    var sticky = header.offsetTop;
-
-    var headerHeight = $("#eduhkheader").height();
-    $("#main-content").css("margin-top", headerHeight);
-
-    $(window).resize(function () {
-        var headerHeight = $("#eduhkheader").height();
-        $("#main-content").css("margin-top", headerHeight);
-    });
+        backToTop();
+    };
 
 
-    //console.log ('hahaha' + sticky)
+    var element = $('#side-menu');
+    console.log(element.length);
+    if (element.length > 0) {
+        var sticky = element.offset().top;
 
-    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+
+        function fixedHeader() {
+            if (window.pageYOffset >= sticky) {
+
+                $('#side-menu').addClass('sticky');
+
+            } else {
+                $('#side-menu').removeClass('sticky');
+
+            }
+
+        }
+        fixedHeader();
+
+    }
 
 
-    function fixedHeader() {
-        if (window.pageYOffset >= 280) {
-
-            var headerHeight = $("#eduhkheader").height();
-            console.log(window.pageYOffset + " : " + sticky + " : height - " + headerHeight);
-
-            $('#eduhkheader').addClass('sticky');
-            /* $('.sticky_show').addClass('d-inline').removeClass('d-none'); */
+    function backToTop() {
+        if (window.pageYOffset >= 400) {
+            $('#back-to-top').addClass('show');
         } else {
-            $('#eduhkheader').removeClass('sticky');
-            /* $('.sticky_show').addClass('d-none').removeClass('d-inline'); */
+            $('#back-to-top').removeClass('show');
         }
     }
 
-    fixedHeader();
+
+    backToTop();
+
+
+    $("#back-to-top").click(function () {
+        $(window).scrollTop(0);
+    });
+
+
+
+    var new_width = $('#side-menu').width();
+    $('#side-menu ul').width(new_width);
+
+    $(window).resize(function () {
+        var new_width = $('#side-menu').width();
+        $('#side-menu ul').width(new_width);
+    });
 
 
 });
